@@ -256,6 +256,7 @@ body{
         background-color: #FFFFFF;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
     }
     .menu-items a{
         border: 1px solid rgba(128, 128, 128, 0.265);
