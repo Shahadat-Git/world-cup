@@ -120,6 +120,23 @@ body{
 .view-blogs{
     display: none;
 }
+/* match content style */
+.matches{
+    padding: 50px 20px;
+    text-align: center;
+}
+.match-thumbnail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.match-thumbnail img{
+    width: 50%;
+    padding: 20px 5px;
+}
+.match-details p{
+    color: gray;
+}
 /* footer style */
 .footer-background-color{
     background-color: #161616;
