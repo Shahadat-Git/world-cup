@@ -175,8 +175,8 @@ body{
 /* mobile */
 @media screen and (max-width: 766px) {
     .header-area{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
         background-color: #161616;
         border-radius: 20px;
         padding: 0px 80px 0 80px ;
@@ -188,12 +188,17 @@ body{
         font-size: 35px;
         line-height: 35px;
     }
+    .header-text-area p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
     #watch-button{
         padding: 10px 20px;
     }
     .header-image-area img{
-    margin-top: 17px;
     height: 90%;
+    padding-top: 20px;
     }
     .content-area{
         display: grid;
