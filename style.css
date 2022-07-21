@@ -199,6 +199,7 @@ body{
     .header-image-area img{
     height: 90%;
     padding-top: 20px;
+    margin-bottom: -6.5px;
     }
     .content-area{
         display: grid;
